@@ -4,26 +4,22 @@
   "name": "coding-challenge-app",
   "url": "http://localhost:8080/dsbpa/",
   "tests": [{
-    "id": "ad3e5b6b-f541-4ca4-a588-2848eb1657b6",
-    "name": "Testing Page Title",
+    "id": "aa886252-8e0a-49e9-9d66-ae0945873606",
+    "name": "Echo Test (Always passes)",
     "commands": [{
-      "id": "f574cb90-2944-499f-bee0-96da535d5b18",
+      "id": "67aada7b-7249-47dd-8ea7-d3f7e4952916",
       "comment": "",
       "command": "open",
       "target": "http://localhost:8080/dsbpa/",
       "targets": [],
       "value": ""
     }, {
-      "id": "0deccb82-6724-423a-a8d4-6958e476618b",
+      "id": "0987ae1d-c762-4dec-a330-9d660dbdf4a7",
       "comment": "",
-      "command": "assertText",
-      "target": "css=div:nth-child(2) > div",
-      "targets": [
-        ["css=div:nth-child(2) > div", "css:finder"],
-        ["xpath=//div[@id='app']/div/div[2]/div", "xpath:idRelative"],
-        ["xpath=//div[2]/div", "xpath:position"]
-      ],
-      "value": "Welcome!"
+      "command": "echo",
+      "target": "test",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
@@ -32,7 +28,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["ad3e5b6b-f541-4ca4-a588-2848eb1657b6"]
+    "tests": ["aa886252-8e0a-49e9-9d66-ae0945873606"]
   }],
   "urls": ["http://localhost:8080/", "http://localhost:8080/dsbpa/"],
   "plugins": []
