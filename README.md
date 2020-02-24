@@ -20,7 +20,7 @@ https://www.jruby.org/download
 ```
 3.  Ensure GIT is working on the development machine and clone the following Repo:
 ```
-https://github.com/meetveracity/coding-challenge-app.git
+https://github.com/paladinarcher/vetsez-ds-demo1-coding-challenge-app.git
 ```
 ***Wherever the clone is created will hereafter be referred to as the Rails root.***
 
@@ -84,7 +84,7 @@ startup.bat
 ```
 11.  After this is running, the website should be running locally.  To test, go to:
 ```
-http://localhost:3000/dsbpa
+http://localhost:3000/
 ```
 
 ## Notes
@@ -108,7 +108,7 @@ When deploying to Tomcat rename the war file to 'dsbpa.war' so the initial conte
 
 
 
-## Docker notes
+## Docker notes (runs in docker http://localhost:8080/dsbpa)
 #### Bring docker up in foreground
 ```
 docker-compose up
