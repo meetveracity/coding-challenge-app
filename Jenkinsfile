@@ -99,7 +99,9 @@ pipeline {
         }
         stage('Source Code Analysis') {
             steps {
-                echo "TDB..."
+                withSonarQubeEnv('sonarqube') {
+                    sh "mvn sonar:sonar"
+                }
             }
             post {
               success {
